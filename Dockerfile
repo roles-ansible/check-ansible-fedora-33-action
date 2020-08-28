@@ -14,7 +14,7 @@ RUN dnf update --assumeyes && dnf install --assumeyes \
     python3-pip \
     git
 
-RUN pip3 install setuptools && pip3 install ansible
+RUN pip3 install ansible
 
 RUN ansible --version
 
